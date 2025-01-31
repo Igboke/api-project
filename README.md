@@ -42,3 +42,31 @@ A simple Flask-based API that returns a JSON response containing:
 8. **Test the API:**
    ```bash
    curl http://localhost:5000
+
+
+## API Documentation
+
+### Base URL
+`GET https://api-project-3dlb.onrender.com` (replace with your live URL)
+
+### Endpoint
+- **Method**: `GET`
+- **Path**: `/`
+- **Description**: Returns a JSON object with email, UTC datetime, and GitHub URL.
+
+### Request Example
+```bash
+curl https://api-project-3dlb.onrender.com
+
+### Response Format
+**JSON**
+{
+  "email": "danieligboke669@gmail.com",
+  "current_datetime": "2024-02-15T12:34:56Z",
+  "github_url": "https://github.com/Igboke/api-project"
+}
+
+**Backlink**
+```bash
+https://hng.tech/hire/python-developers
+
