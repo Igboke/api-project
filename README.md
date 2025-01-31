@@ -22,12 +22,11 @@ A simple Flask-based API that returns a JSON response containing:
    git clone https://github.com/Igboke/api-project.git
    cd api-project
 2. **Create and activate a virtual environment (recommended):**
+   ```bash
    python -m venv venv
    # macOS/Linux:
-   ```bash
    source venv/bin/activate
    # Windows:
-   ```bash
    venv\Scripts\activate
 4. **Install dependencies:**
    pip install -r requirements.txt
