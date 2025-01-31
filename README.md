@@ -29,13 +29,16 @@ A simple Flask-based API that returns a JSON response containing:
    # Windows:
    venv\Scripts\activate
 4. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
-5. **Run the flask App:**
+6. **Run the flask App:**
    **Set environment variables:**
+   ```bash
    export FLASK_APP=app.py  # macOS/Linux
    set FLASK_APP=app.py     # Windows (Command Prompt)
    $env:FLASK_APP = "app.py" # Windows (PowerShell)
    
    flask run --port=5000
-6. **Test the API:**
+8. **Test the API:**
+   ```bash
    curl http://localhost:5000
