@@ -21,6 +21,7 @@ A simple Flask-based API that returns a JSON response containing:
    ```bash
    git clone https://github.com/Igboke/api-project.git
    cd api-project
+   ```
 2. **Create and activate a virtual environment (recommended):**
    ```bash
    python -m venv venv
@@ -28,9 +29,11 @@ A simple Flask-based API that returns a JSON response containing:
    source venv/bin/activate
    # Windows:
    venv\Scripts\activate
+   ```
 4. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   ```
 6. **Run the flask App:**
    **Set environment variables:**
    ```bash
@@ -39,9 +42,11 @@ A simple Flask-based API that returns a JSON response containing:
    $env:FLASK_APP = "app.py" # Windows (PowerShell)
    
    flask run --port=5000
+   ```
 8. **Test the API:**
    ```bash
    curl http://localhost:5000
+   ```
 
 
 ## API Documentation
@@ -57,14 +62,16 @@ A simple Flask-based API that returns a JSON response containing:
 ### Request Example
 ```bash
 curl https://api-project-3dlb.onrender.com
-
-### Response Format
+```
+### Response Format (200 OK)
+```json
 {
   "email": "danieligboke669@gmail.com",
   "current_datetime": "2024-02-15T12:34:56Z",
   "github_url": "https://github.com/Igboke/api-project"
 }
+``` 
 
 ### Backlink
-https://hng.tech/hire/python-developers
+[Hire Python Developers at HNG](https://hng.tech/hire/python-developers)
 
