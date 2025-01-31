@@ -1,0 +1,44 @@
+# Flask-specific
+instance/
+.webassets-cache
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.env.local
+.env.*.local
+venv/
+ENV/
+env/
+
+# Virtual Environment
+.venv
+venv/
+env/
+
+# IDE Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.db-journal
+
+# Local development
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# Caching
+.cache
+.pytest_cache/
