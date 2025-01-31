@@ -47,7 +47,7 @@ A simple Flask-based API that returns a JSON response containing:
 ## API Documentation
 
 ### Base URL
-`GET https://api-project-3dlb.onrender.com` (replace with your live URL)
+`GET https://api-project-3dlb.onrender.com`
 
 ### Endpoint
 - **Method**: `GET`
@@ -59,7 +59,6 @@ A simple Flask-based API that returns a JSON response containing:
 curl https://api-project-3dlb.onrender.com
 
 ### Response Format
-**JSON**
 {
   "email": "danieligboke669@gmail.com",
   "current_datetime": "2024-02-15T12:34:56Z",
@@ -67,6 +66,5 @@ curl https://api-project-3dlb.onrender.com
 }
 
 **Backlink**
-```bash
 https://hng.tech/hire/python-developers
 
